@@ -1,1 +1,2 @@
 web: gunicorn mcq.wsgi
+worker: python MMDbot.py
